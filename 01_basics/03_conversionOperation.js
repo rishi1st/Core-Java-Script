@@ -24,3 +24,23 @@ let someNumber = 44
 let stringNumer = String(someNumber);
 console.log(stringNumer);
 console.log(typeof stringNumer);
+
+//*********************** Operations ********************
+let value = 3;
+let negvalue = -value;
+// console.log(negvalue);
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2**2); // power
+console.log(2%2);
+
+let str1 = "Hello";
+let str2 = " Rishi ji";
+let str = str1 + str2;
+console.log(str);
+//👉
+ console.log("1" + 2 + 1);
+ console.log(1 + "2" + 5);
+ console.log(1+4+ "3");
