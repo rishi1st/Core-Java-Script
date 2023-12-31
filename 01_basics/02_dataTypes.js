@@ -3,9 +3,9 @@
 
 console.log(3 + 3);
 
-let name = "Rishi" // String
-let age = 19 // number
-let IsLogined = true // flase //  = >boolean
+let name = "Rishi"; // String
+let age = 19; // number
+let IsLogined = true; // false //  = >boolean
 
 // => data type in js
 
@@ -15,7 +15,7 @@ let IsLogined = true // flase //  = >boolean
 
 // string => prefered "to use  double  quotes "
 
-// boolean => true / false 
+// boolean => true / false
 
 // null => stand alone value (representation of empty)
 
@@ -24,4 +24,5 @@ let IsLogined = true // flase //  = >boolean
 // symbol => to identify the unique
 
 // ------------- Object -----------
-console.log(typeof "Rishi");
+console.log(typeof undefined); // undefined
+console.log(typeof null); // object
