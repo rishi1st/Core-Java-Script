@@ -1,10 +1,10 @@
 let score = "Rishi";
-console.log(typeof score);
-console.log(score);
+console.log(typeof score); // string
+console.log(score);  // Rishi
 
 let valueInNumber = Number(score);
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
+console.log(typeof valueInNumber);  // Number
+console.log(valueInNumber); // NAN
 
 // "44" => 44
 // "44abc" => NaN (not an number)
@@ -13,7 +13,7 @@ console.log(valueInNumber);
 console.log("------------ Boolean -------------- ");
 let isLogin = 1;
 let booleanisLogin = Boolean(isLogin);
-console.log(booleanisLogin);
+console.log(booleanisLogin); // true
 
 // 1 => true; 0 => false
 // "" => false
@@ -22,8 +22,8 @@ console.log(booleanisLogin);
 console.log("----------------String-------------");
 let someNumber = 44
 let stringNumer = String(someNumber);
-console.log(stringNumer);
-console.log(typeof stringNumer);
+console.log(stringNumer); // 44
+console.log(typeof stringNumer); // string
 
 //*********************** Operations ********************
 let value = 3;
