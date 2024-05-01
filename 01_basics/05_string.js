@@ -48,9 +48,9 @@ console.log(`My original url is ${url} \ncorrected url is : ${url.replace("%19" 
 
 
 // 9. include
-console.log(url.includes("rishi"));
+console.log(url.includes("rishi")); // true
 
-// 👉 one interestin thing split something one the basis of whitespace, hyphen , comma anything
+// 👉 one interesting thing split something one the basis of whitespace, hyphen , comma anything
 let somename = "Rishi-Rahul-Sunny-Radha-govind";
 console.log(`The original name is : ${somename}`);
 console.log(`after spliting the name : ${somename.split('-' , 3)}`);
