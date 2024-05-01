@@ -1,15 +1,17 @@
 const score = 400;
 console.log(`The score is : ${score}`);
+// The score is : 400
 
 // creating a number as a object
 const balance = new Number(100);
 console.log(`The number as a object is : ${balance}`);
+// The number as a object is : 100
 
 // 1. convert number to string
 console.log(`the number in a string is : ${balance.toString()} and it's length is : ${balance.toString().length}`);
+// the number in a string is : 100 and it's length is : 3
 
 // 2. to fixed for set value after decimal
-
 console.log(`The fixed value of ${balance}  is ${balance.toFixed(2)}`);
 
 // precision of a number
@@ -24,24 +26,24 @@ console.log(`Now the number ${hundreds} converted into readable form ${hundreds.
 // +++++++++++++++++++++++++++++++++++++ Maths ++++++++++++++++++++++++++++++++++++++++++++++
 
 console.log(Math);
-// abs() 
-console.log(Math.abs(-4));
-//  round is used for get without decimal value and nearest value
-console.log(Math.round(4.6));
-// ceil() is used for maximimum nearest value
-console.log(Math.ceil(4.2));
-// floor() is used for minimum
-console.log(Math.floor(4.8));
-// sqrt()
- console.log(Math.sqrt(25));
-// pow()
- console.log(Math.pow(2,6));
-// min()
-console.log(Math.min(1,3,3,63,7));
-// max()
-console.log(Math.max(1,3,3,63,7));
-//  random()
-console.log(`The random number is : ${Math.random()}`);
+// abs: Returns the absolute value of a number.
+console.log(Math.abs(-4)); //4 
+// round: Rounds a number to the nearest integer.
+console.log(Math.round(4.6)); // 5
+// ceil: Returns the smallest integer greater than or equal to a number.
+console.log(Math.ceil(4.2)); // 5
+// floor: Returns the largest integer less than or equal to a number.
+console.log(Math.floor(4.8)); // 4
+// sqrt: Returns the square root of a number.
+ console.log(Math.sqrt(25)); 5
+// pow: Returns the base to the exponent power, that is, base raised to the power exponent.
+ console.log(Math.pow(2,6)); // 64
+// min: Returns the smallest of zero or more numbers.
+console.log(Math.min(1,3,3,63,7)); // 1
+// max: Returns the largest of zero or more numbers.
+console.log(Math.max(1,3,3,63,7)); //63
+// random: Returns a pseudo-random number between 0 and 1.
+console.log(`The random number is : ${Math.random()}`); // The random number is : 0.1720091397133372
 /*
     Without value the random() function generate only numbers between 0 to 1
 
