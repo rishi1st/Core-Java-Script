@@ -18,10 +18,10 @@
                // isArray is used for check array or not
 console.log(Array.isArray("Rishi"))
                 // from is used for make array
-console.log(Array.from("Rishi"));
+console.log(Array.from("Rishi")); // (5) ['R', 'i', 's', 'h', 'i']
              // 👉 Interesing case
 console.log(Array.from({name:"Rishi"})) // []
-             // of() Returns a new Arrau form the set of elements.
+             // of() Returns a new Array form the set of elements.
 let score1 = 100;
 let score2 = 200;
 let score3 = 300;
