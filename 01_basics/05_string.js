@@ -1,3 +1,7 @@
+
+ // string can be decleared as two type 1. ' ' Quotes and 2. " " Quotes
+
+
 let name = "Rishi"
 let value = 50
 console.log(name+value);
